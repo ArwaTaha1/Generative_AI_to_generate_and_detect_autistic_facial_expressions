@@ -69,7 +69,7 @@ This project investigates whether AI can:
 ![Training Curves](images/graphs2.png)  
 
 *(Loss across epochs)*  
-![Training Curves](images/graphs.png)  
+![Training Curves](images/graphs1.png)  
 
 ### Explainable AI (XAI) Interpretation 
 *(GRAD-CAM)*  
