@@ -38,7 +38,9 @@ This project investigates whether AI can:
 - **Results:** Achieved **FID = 14.7**, with realistic synthetic faces.  
 
 ### 2. Classification  
-- **Model:** EfficientNetB3 (transfer learning)  
+- **Model:** EfficientNetB3 (transfer learning)
+- **Model Head Architecture:**
+  ![Head Architecture](images/arch.png)  
 - **Training:**
   - Custom train/validation/test splits via Pandas DataFrames
   - Removed problematic, excessively blurry images using a blur detection algorithm based on the LaPlacian Variance
@@ -53,15 +55,25 @@ This project investigates whether AI can:
 ## 📈 Results  
 
 ### GAN Outputs  
-*(Synthetic examples generated with StyleGAN2-ADA)*  
-![GAN Outputs](images/generated_faces.png)  
+*(Synthetic examples generated with StyleGAN2-ADA with **trunc=0.7**)*  
+![GAN Outputs](images/tranc=0.7.png)  
 
-*(Synthetic Middle Eastern examples generated with StyleGAN2-ADA)*  
-![GAN Outputs](images/generated_middle_eastern_faces.png)  
+*(Synthetic examples generated with StyleGAN2-ADA with **trunc=1**)*  
+![GAN Outputs](images/tranc=1.png)  
+
+*(Synthetic Middle Eastern examples generated with StyleGAN2-ADA with **trunc=0.7**)*  
+![GAN Outputs](images/middle_eastern.png)  
 
 ### Training Curves  
-*(Accuracy and loss across epochs)*  
-![Training Curves](images/training_curve.png)  
+*(Accuracy across epochs)*  
+![Training Curves](images/graphs2.png)  
+
+*(Loss across epochs)*  
+![Training Curves](images/graphs.png)  
+
+### Explainable AI (XAI) Interpretation 
+*(GRAD-CAM)*  
+![XAI](images/gradcam.png)  
 
 ### Classifier Performance  
 - **Validation Accuracy:** 90%  
