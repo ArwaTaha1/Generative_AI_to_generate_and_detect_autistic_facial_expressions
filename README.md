@@ -41,8 +41,6 @@ This project investigates whether AI can:
 - **Model:** EfficientNetB3 (transfer learning)
 - **Model Head Architecture:**
    <img src="images/arch.png" alt="Example" width="400"/>
-
-  ![Head Architecture](images/arch.png)  
 - **Training:**
   - Custom train/validation/test splits via Pandas DataFrames
   - Removed problematic, excessively blurry images using a blur detection algorithm based on the LaPlacian Variance
@@ -68,10 +66,10 @@ This project investigates whether AI can:
 
 ### Training Curves  
 *(Accuracy across epochs)*  
-![Training Curves](images/graphs2.png)  
+<img src="images/graphs2.png" alt="Example" width="400"/>
 
 *(Loss across epochs)*  
-![Training Curves](images/graphs1.png)  
+<img src="images/graphs1.png" alt="Example" width="400"/>
 
 ### Explainable AI (XAI) Interpretation 
 *(GRAD-CAM)*  
