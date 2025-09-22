@@ -91,8 +91,8 @@ This project investigates whether AI can:
 ---
 ## Models
 
-The trained models used in this project are available on [Kaggle]
-Download pretrained weights from Kaggle:  
+- The trained models used in this project are available on [Kaggle](kaggle.com)
+- Download pretrained weights from Kaggle:  
 - [EfficientNetB3 Autism Classifier](https://www.kaggle.com/models/arwataha/autism-b3-92.0.h5/)  
 - [StyleGAN2-ADA Fine-tuned Generator](https://www.kaggle.com/models/arwataha/gan_fid_14.7/)
 
