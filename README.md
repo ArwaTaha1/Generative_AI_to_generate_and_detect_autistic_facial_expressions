@@ -40,6 +40,8 @@ This project investigates whether AI can:
 ### 2. Classification  
 - **Model:** EfficientNetB3 (transfer learning)
 - **Model Head Architecture:**
+   <img src="images/arch.png" alt="Example" width="400"/>
+
   ![Head Architecture](images/arch.png)  
 - **Training:**
   - Custom train/validation/test splits via Pandas DataFrames
@@ -88,4 +90,27 @@ This project investigates whether AI can:
 - Balancing and standardizing the dataset was critical to stability and fairness.  
 
 ---
+## Models
+
+The trained models used in this project are available on [Kaggle]
+Download pretrained weights from Kaggle:  
+- [EfficientNetB3 Autism Classifier](https://www.kaggle.com/models/arwataha/autism-b3-92.0.h5/)  
+- [StyleGAN2-ADA Fine-tuned Generator](https://www.kaggle.com/models/arwataha/gan_fid_14.7/)
+
+
+---
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+---
+
+## Future Work
+Planned improvements include dataset expansion, fine-tuning with more diverse samples, and real-time detection experiments.
+
 
