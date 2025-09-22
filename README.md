@@ -40,6 +40,7 @@ This project investigates whether AI can:
 ### 2. Classification  
 - **Model:** EfficientNetB3 (transfer learning)
 - **Model Head Architecture:**
+
    <img src="images/arch.png" alt="Example" width="400"/>
 - **Training:**
   - Custom train/validation/test splits via Pandas DataFrames
