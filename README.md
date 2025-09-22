@@ -29,7 +29,7 @@ This project investigates whether AI can:
 ## ⚙️ Methods  
 
 ### 1. Generative Modeling  
-- **Model:** [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada)  
+- **Architecture:** [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada)  
 - **Training setup:**  
   - Image size: 512×512
   - Initially trained on the initial dataset for 1 week for 25000kimgs
