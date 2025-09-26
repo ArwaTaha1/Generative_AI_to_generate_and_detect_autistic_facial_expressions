@@ -65,7 +65,12 @@ This project investigates whether AI can:
 *(Synthetic Middle Eastern examples generated with StyleGAN2-ADA with **trunc=0.7**)*  
 ![GAN Outputs](images/middle_eastern.png)  
 
-### Training Curves  
+### Autism Classifier Performance  
+- **Validation Accuracy:** 90%  
+- **Test Accuracy:** 92%  
+- **Observation:** Model captured subtle facial cues but struggled with underrepresented ethnic groups.
+  
+  ### Training Curves  
 *(Accuracy across epochs)*  
 <img src="images/graphs2.png" alt="Example" width="400"/>
 
@@ -75,11 +80,6 @@ This project investigates whether AI can:
 ### Explainable AI (XAI) Interpretation 
 *(GRAD-CAM)*  
 ![XAI](images/gradcam.png)  
-
-### Classifier Performance  
-- **Validation Accuracy:** 90%  
-- **Test Accuracy:** 92%  
-- **Observation:** Model captured subtle facial cues but struggled with underrepresented ethnic groups.  
 
 ---
 
